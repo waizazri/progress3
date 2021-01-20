@@ -17,6 +17,8 @@ import java.util.Date;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
+import waiz.guilatest.bmi1;
+
 /**
  *
  * @author Waiz
@@ -54,7 +56,7 @@ int i = 0;
         addRowToJTable();
         
         /////////////////   
-        
+        //////
     }
     
     public class bmi1{
@@ -68,7 +70,7 @@ int i = 0;
     	}
     }
     
-    public  ArrayList ListBmi()
+    public  ArrayList<bmi1> ListBmi()
     {
     	ArrayList<bmi1> list = new ArrayList<bmi1>();
     	bmi1 bod1 = new bmi1("Normal Weight","19 - 24.9");
